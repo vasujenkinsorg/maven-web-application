@@ -26,7 +26,7 @@ stages{
 	  sh "mvn clean package"
 	  }
 	}
-  /*
+  
   stage('ExecuteSonarQubeReport'){
 	steps{
 	sh "mvn sonar:sonar"
@@ -38,7 +38,7 @@ stages{
 	sh "mvn deploy"
 	}
 	}
-	
+	/*
 	stage('DeployAppIntoTomcatServer'){
 	steps{
 	sshagent(['a2b944b0-d466-4676-8997-3658e2ab4fca']) {
