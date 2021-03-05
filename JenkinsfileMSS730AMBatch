@@ -6,7 +6,7 @@ properties([[$class: 'JiraProjectProperty'], buildDiscarder(logRotator(artifactD
 
  stage('CheckoutCode')
  {
-  git branch: 'development', credentialsId: '0eb44278-575c-4a51-bd77-a797d525e698', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+  git branch: 'development', credentialsId: '0eb44278-575c-4a51-bd77-a797d525e698', url: 'https://github.com/vasujenkinsorg/maven-web-application.git'
  }
  
  stage('Build')
